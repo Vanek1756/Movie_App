@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_profile"
+    app:startDestination="@id/profileFragment">
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.example.movie.ui.profile.FavoriteFragment" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.movie.ui.profile.ProfileFragment">
+        <action
+            android:id="@+id/action_profileFragment_to_favoriteFragment"
+            app:destination="@id/favoriteFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_recommendationsFragment"
+            app:destination="@id/recommendationsFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_watchListFragment"
+            app:destination="@id/watchListFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_ratingsFragment"
+            app:destination="@id/ratingsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/recommendationsFragment"
+        android:name="com.example.movie.ui.profile.RecommendationsFragment" />
+    <fragment
+        android:id="@+id/watchListFragment"
+        android:name="com.example.movie.ui.profile.WatchListFragment"
+        android:label="WatchListFragment" />
+    <fragment
+        android:id="@+id/ratingsFragment"
+        android:name="com.example.movie.ui.profile.RatingsFragment"
+        android:label="RatingsFragment" />
+</navigation>

@@ -1,0 +1,79 @@
+<resources>
+
+    <string name="login_email">Емеіл</string>
+    <string name="login_password">Пароль</string>
+    <string name="login_sign_in">Войти</string>
+    <string name="login_sign_up">Реєстрація</string>
+    <string name="login_forgot_password">Забули пароль?</string>
+    <string name="login_forgot_password_successfully">Пароль Змінено!</string>
+    <string name="login_forgot_password_unsuccessfully">Ви вже використовували цей пароль</string>
+    <string name="login_change_password">Змінити пароль</string>
+    <string name="login_invalid_username">Недійсне ім’я користувача</string>
+    <string name="login_invalid_password">Пароль має бути більше 5 символів</string>
+    <string name="login_failed">"Помилка логіну"</string>
+    <string name="login_toast_all_fields">"Заповніть усі поля"</string>
+    <string name="login_toast_already_exists">"Цей користувач уже існує"</string>
+    <string name="login_don_t_have_an_account">НЕМАЄ АКАУНТА?</string>
+    <string name="login_full_name">ПОВНЕ ІМ\'Я</string>
+    <string name="login_set_password">ВСТАНОВИТИ ПАРОЛЬ</string>
+    <string name="login_valid_email">Введіть дійсну адресу електронної пошти</string>
+    <string name="login_valid_username">Введіть дійсне ім\'я користувача</string>
+    <string name="login_user_is_not_found">Користувач не існує</string>
+    <string name="login_valid_password">Від 6 до 12 буквено-цифрових символів</string>
+    <string name="login_enter_your_name">Введіть ім\'я</string>
+
+    <string name="main_open">open</string>
+    <string name="main_close">close</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_sing_out">Вийти</string>
+    <string name="menu_profile">Профіль</string>
+
+    <string name="tabLayout_list">List</string>
+    <string name="tabLayout_table">Table</string>
+
+    <string name="app_name">Фільми</string>
+
+    <string name="adapter_popularity">Популярні: </string>
+    <string name="adapter_release_data">Дата виходу: </string>
+    <string name="adapter_original_language">Оригінальна мова: </string>
+
+    <string name="main_btn_films">Фільми</string>
+    <string name="main_btn_serials">Серіали</string>
+    <string name="main_btn_people">Люди</string>
+
+    <string name="film_btn_popular">Популярні</string>
+    <string name="film_btn_watch_now">На екранах</string>
+    <string name="film_btn_expected">Очікуються</string>
+    <string name="film_btn_best">Найкращі</string>
+
+    <string name="serials_btn_popular">Популярні</string>
+    <string name="serials_btn_on_air">Сьогодні в ефірі</string>
+    <string name="serials_btn_tv">По телевізору</string>
+    <string name="serials_btn_best">Найкращі</string>
+
+    <string name="action_filter">Фільтр</string>
+    <string name="spinner_tv_film_genre">Жанр фільмів</string>
+    <string name="profile_hello">Привіт,</string>
+    <string name="profile">Профіль</string>
+    <string name="filter_sort">Сортувати</string>
+    <string name="profile_favorites">Улюблені</string>
+    <string name="login_hint_name">Ім\'я користувача</string>
+    <string name="filter_save">Зберегти</string>
+    <string name="people_biography">Біографія</string>
+    <string name="known_for">Відомі за</string>
+    <string name="gender">Жанри</string>
+    <string name="hint_overview">Опис</string>
+    <string name="we_don_t_have_a_biography">Ми не маємо біографії про цю особу</string>
+    <string name="recommendations">Рекомендації</string>
+    <string name="profile_watch_list">Список перегляду</string>
+    <string name="no_trailer">Трейлер відсутній</string>
+    <string name="genre_all">Всі</string>
+    <string name="profile_rating">Рейтинги</string>
+    <string name="action_search">Пошук</string>
+    <string name="no_results_were_found_for_your_search">На ваш запит нічого не знайдено...</string>
+    <string name="find_a_movie_tv_series_person">Знайдіть фільм, серіал, персону...</string>
+    <string name="connection_error">Помилка підключення</string>
+    <string name="login_Incorrect_login_or_password">Неправильний логін або пароль!</string>
+
+</resources>

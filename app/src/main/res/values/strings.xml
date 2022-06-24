@@ -1,3 +1,120 @@
 <resources>
-    <string name="app_name">Movie_App</string>
+
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_sign_in">Sign in</string>
+    <string name="login_sign_up">Sign Up</string>
+    <string name="login_forgot_password">Forgot password?</string>
+    <string name="login_forgot_password_successfully">Password Changed!</string>
+    <string name="login_forgot_password_unsuccessfully">You have already used this password</string>
+    <string name="login_change_password">Change password</string>
+    <string name="login_invalid_username">Not a valid username</string>
+    <string name="login_invalid_password">Password must be >5 characters</string>
+    <string name="login_Incorrect_login_or_password">Wrong login or password!</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="login_toast_all_fields">"Fill in all the fields"</string>
+    <string name="login_toast_already_exists">"This user already exists"</string>
+    <string name="login_don_t_have_an_account">DON\'T HAVE AN ACCOUNT?</string>
+    <string name="login_full_name">FULL NAME</string>
+    <string name="login_set_password">SET PASSWORD</string>
+    <string name="login_privacy_policy" translatable="false">Privacy policy</string>
+    <string name="login_by_using_the_site_you_agree_to_our" translatable="false">By using the ui/ux you agree to our</string>
+    <string name="login_valid_email">Enter a valid email address</string>
+    <string name="login_valid_username">Enter a valid username address</string>
+    <string name="login_user_is_not_found">User does not exist</string>
+    <string name="login_valid_password">Between 6 and 12 alphanumeric characters</string>
+    <string name="login_enter_your_name">Enter your Name</string>
+    <string name="login_privacy_policy_terms" translatable="false">
+
+        <b>FREE</b> \nEach download allows the buyer to use the product for personal use only. You’ll need to purchase a commercial license if you’re not willing to make the modified version public. \n\n
+
+        <b>SINGLE</b> \nEach purchase allows the buyer to use the product, for one project and for commercial use but end users cannot be charged for. This license allows you to keep your project private and use it in only one project.\n\n
+
+        <b>EXTENDED</b> \nEach purchase allows the buyer to use the product, for an unlimited amount of projects, for commercial use, within the same company.\n\n
+
+    </string>
+    <string name="login_agree_policy" translatable="false">i agree to the terms and conditions</string>
+
+
+    <string name="main_open">open</string>
+    <string name="main_close">close</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_sing_out">Sing out</string>
+    <string name="menu_profile">Profile</string>
+
+    <string name="tabLayout_list">List</string>
+    <string name="tabLayout_table">Table</string>
+
+    <string name="app_name">Movie</string>
+
+    <string name="adapter_image_path" translatable="false">https://image.tmdb.org/t/p/original/</string>
+    <string name="adapter_image_path_w500" translatable="false">https://image.tmdb.org/t/p/w500/</string>
+    <string name="adapter_three_dots" translatable="false">...</string>
+    <string name="adapter_popularity">Popularity: </string>
+    <string name="adapter_release_data">Release Date: </string>
+    <string name="adapter_original_language">Original Language: </string>
+
+    <string name="database_name" translatable="false">User_Database</string>
+
+    <string name="retrofit_api_key" translatable="false">0c1d08ad1761b1d4b1f76d4b3e7b3844</string>
+    <string name="retrofit_access_token" translatable="false">eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwYzFkMDhhZDE3NjFiMWQ0YjFmNzZkNGIzZTdiMzg0NCIsInN1YiI6IjYxNGU1NDBjMTQwYmFkMDA0MzAwOGY1NiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.oOOv9qiubcr_LJWQgRoMe2Gx30AQSOE0KIYiURrUgMg</string>
+    <string name="retrofit_base_url" translatable="false">https://api.themoviedb.org/3/</string>
+
+    <string name="main_home_click" translatable="false">Home is clicked</string>
+    <string name="profile_is_clicked" translatable="false">Profile is clicked</string>
+
+    <string name="main_btn_films">Films</string>
+    <string name="main_btn_serials">Serials</string>
+    <string name="main_btn_people">People</string>
+
+    <string name="film_btn_popular">Popular</string>
+    <string name="film_btn_watch_now">Watching now</string>
+    <string name="film_btn_expected">Expected</string>
+    <string name="film_btn_best">The best</string>
+
+    <string name="serials_btn_popular">Popular</string>
+    <string name="serials_btn_on_air">On air today</string>
+    <string name="serials_btn_tv">On the tv</string>
+    <string name="serials_btn_best">The best</string>
+
+    <string-array name="spinner_filter">
+        <item>Genre</item>
+    </string-array>
+
+
+    <string name="action_filter">Filter</string>
+    <string name="action_search">Search</string>
+    <string name="spinner_tv_film_genre">Film genre</string>
+    <string name="profile_hello">Hello,</string>
+    <string name="profile_home" translatable="false">Home</string>
+    <string name="profile">Profile</string>
+    <string name="genre_all">All</string>
+    <string name="filter_sort">Sort</string>
+    <string name="profile_favorites">Favorites</string>
+    <string name="login_hint_name">Username</string>
+    <string name="filter_save">Save</string>
+    <string name="percent" translatable="false">%</string>
+    <string name="hint_title" translatable="false">Title</string>
+    <string name="hint_release_data" translatable="false">Release Data</string>
+    <string name="text_user_rating" translatable="false">User rating</string>
+    <string name="hint_overview">Overview</string>
+    <string name="people_biography">Biography</string>
+    <string name="known_for">Known For</string>
+    <string name="personal_info" translatable="false">Personal Info</string>
+    <string name="gender">Gender</string>
+    <string name="birthday" translatable="false">Birthday</string>
+    <string name="place_of_birth" translatable="false">Place of Birth</string>
+    <string name="we_don_t_have_a_biography">We don\'t have a biography</string>
+    <string name="recommendations">Recommendations</string>
+    <string name="profile_watch_list">Watch List</string>
+    <string name="profile_rating">Ratings</string>
+
+    <string name="no_trailer">No trailer</string>
+    <string name="no_results_were_found_for_your_search">No results were found for your search...</string>
+    <string name="find_a_movie_tv_series_person">Find a movie, TV series, person ...</string>
+    <string name="connection_error">Connection error!</string>
+    <string name="retry_connect">Retry</string>
+
+
 </resources>

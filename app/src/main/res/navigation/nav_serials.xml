@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_serials"
+    app:startDestination="@id/popularSerialsFragment">
+    <fragment
+        android:id="@+id/popularSerialsFragment"
+        android:name="com.example.movie.ui.serials.PopularSerialsFragment"
+        android:label="PopularSerialsFragment" />
+    <fragment
+        android:id="@+id/onAirSerialsFragment"
+        android:name="com.example.movie.ui.serials.OnAirSerialsFragment"
+        android:label="OnAirSerialsFragment" />
+    <fragment
+        android:id="@+id/tvSerialsFragment"
+        android:name="com.example.movie.ui.serials.TvSerialsFragment"
+        android:label="TvSerialsFragment" />
+    <fragment
+        android:id="@+id/bestSerialsFragment"
+        android:name="com.example.movie.ui.serials.BestSerialsFragment"
+        android:label="BestSerialsFragment" />
+</navigation>

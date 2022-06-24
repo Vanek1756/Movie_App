@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/filmsFragment">
+
+    <fragment
+        android:id="@+id/filmsFragment"
+        android:name="com.example.movie.ui.films.FilmsFragment"
+        android:label="Films">
+        <action
+            android:id="@+id/action_filmsFragment_to_serialsFragment"
+            app:destination="@id/serialsFragment" />
+        <action
+            android:id="@+id/action_filmsFragment_to_peopleFragment"
+            app:destination="@id/peopleFragment" />
+        <action
+            android:id="@+id/action_filmsFragment_to_profileContainerFragment"
+            app:destination="@id/profileContainerFragment" />
+        <action
+            android:id="@+id/action_filmsFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/serialsFragment"
+        android:name="com.example.movie.ui.serials.SerialsFragment"
+        android:label="Serials" />
+    <fragment
+        android:id="@+id/peopleFragment"
+        android:name="com.example.movie.ui.people.PeopleFragment"
+        android:label="People" />
+    <fragment
+        android:id="@+id/profileContainerFragment"
+        android:name="com.example.movie.ui.profile.ProfileContainerFragment"
+        android:label="ProfileFragment" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.movie.ui.SearchFragment"
+        android:label="SearchFragment" />
+</navigation>

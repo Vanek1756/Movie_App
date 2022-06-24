@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/popularSerialsFragment"
+        android:title="@string/serials_btn_popular" />
+
+    <item
+        android:id="@+id/onAirSerialsFragment"
+        android:title="@string/serials_btn_on_air" />
+
+    <item
+        android:id="@+id/tvSerialsFragment"
+        android:title="@string/serials_btn_tv" />
+
+    <item
+        android:id="@+id/bestSerialsFragment"
+        android:title="@string/serials_btn_best" />
+
+</menu>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_details"
+    app:startDestination="@id/movieDetailsFragment">
+
+    <fragment
+        android:id="@+id/movieDetailsFragment"
+        android:name="com.example.movie.ui.details.MovieDetailsFragment"
+        android:label="MovieDetailsFragment">
+        <action
+            android:id="@+id/action_movieDetailsFragment_to_movieDetailsFragment"
+            app:popUpTo="@+id/nav_details"
+            app:popUpToInclusive="true"
+            app:destination="@id/movieDetailsFragment" />
+        <action
+            android:id="@+id/action_movieDetailsFragment_to_serialsDetailsFragment"
+            app:popUpTo="@+id/nav_details"
+            app:popUpToInclusive="true"
+            app:destination="@id/serialsDetailsFragment" />
+        <action
+            android:id="@+id/action_movieDetailsFragment_to_peopleDetailsFragment"
+            app:popUpTo="@+id/nav_details"
+            app:popUpToInclusive="true"
+            app:destination="@id/peopleDetailsFragment" />
+        <argument
+            android:name="filmId"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+    <fragment
+        android:id="@+id/serialsDetailsFragment"
+        android:name="com.example.movie.ui.details.SerialsDetailsFragment"
+        android:label="SerialsDetailsFragment">
+        <argument
+            android:name="serialId"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+    <fragment
+        android:id="@+id/peopleDetailsFragment"
+        android:name="com.example.movie.ui.details.PeopleDetailsFragment"
+        android:label="PeopleDetailsFragment">
+        <action
+            android:id="@+id/action_peopleDetailsFragment_to_serialsDetailsFragment"
+            app:destination="@id/serialsDetailsFragment" />
+        <action
+            android:id="@+id/action_peopleDetailsFragment_to_movieDetailsFragment"
+            app:destination="@id/movieDetailsFragment" />
+        <argument
+            android:name="peopleName"
+            app:argType="string"
+            android:defaultValue='""' />
+    </fragment>
+</navigation>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/popularFilmFragment"
+        android:title="@string/film_btn_popular" />
+
+    <item
+        android:id="@+id/watchingNowFilmFragment"
+        android:title="@string/film_btn_watch_now" />
+
+    <item
+        android:id="@+id/expectedFilmFragment"
+        android:title="@string/film_btn_expected" />
+
+    <item
+        android:id="@+id/bestFilmFragment"
+        android:title="@string/film_btn_best" />
+
+</menu>

@@ -1,0 +1,81 @@
+<resources>
+
+    <string name="login_email">Емеил</string>
+    <string name="login_password">Пароль</string>
+    <string name="login_sign_in">Войти</string>
+    <string name="login_sign_up">Регистарция</string>
+    <string name="login_forgot_password">Забыл пароль?</string>
+    <string name="login_forgot_password_successfully">Пароль Изменен!</string>
+    <string name="login_forgot_password_unsuccessfully">Вы уже использовали данный пароль</string>
+    <string name="login_change_password">Сменить пароль</string>
+    <string name="login_invalid_username">Not a valid username</string>
+    <string name="login_invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="login_toast_all_fields">"Заполните все поля"</string>
+    <string name="login_toast_already_exists">"Пользователь уже существует"</string>
+    <string name="login_don_t_have_an_account">Нету аккаута?</string>
+    <string name="login_full_name">Имя</string>
+    <string name="login_set_password">Введите пароль</string>
+    <string name="login_valid_email">Введите валидный емейл</string>
+    <string name="login_valid_username">Введите валидный никнейм</string>
+    <string name="login_user_is_not_found">User does not exist</string>
+    <string name="login_enter_your_name">Введите ваше имя</string>
+    <string name="login_valid_password">От 6 до 12 буквенно-цифровых символов</string>
+
+
+    <string name="main_open">open</string>
+    <string name="main_close">close</string>
+
+    <string name="menu_home">Домой</string>
+    <string name="menu_sing_out">Выйти</string>
+    <string name="menu_profile">Профиль</string>
+
+    <string name="tabLayout_list">Список</string>
+    <string name="tabLayout_table">Таблица</string>
+
+    <string name="app_name">Фильмы</string>
+
+    <string name="adapter_popularity">Популярность: </string>
+    <string name="adapter_release_data">Дата выхода: </string>
+    <string name="adapter_original_language">Язык оригинала: </string>
+
+    <string name="main_btn_films">Фильмы</string>
+    <string name="main_btn_serials">Сериалы</string>
+    <string name="main_btn_people">Люди</string>
+
+    <string name="film_btn_popular">Популярные</string>
+    <string name="film_btn_watch_now">Смотрят сейчас</string>
+    <string name="film_btn_expected">Ожидаемые</string>
+    <string name="film_btn_best">Лучшие</string>
+
+    <string name="serials_btn_popular">Популярные</string>
+    <string name="serials_btn_on_air">В эфире сегодня</string>
+    <string name="serials_btn_tv">По телевидению</string>
+    <string name="serials_btn_best">Лучшие</string>
+
+    <string name="action_filter">Фильтр</string>
+    <string name="spinner_tv_film_genre">Жанры фильмов</string>
+    <string name="profile_hello">Привет,</string>
+    <string name="profile">Профиль</string>
+    <string name="genre_all">Все</string>
+    <string name="filter_sort">Сортировать</string>
+    <string name="profile_favorites">Избранные</string>
+    <string name="login_hint_name">Username</string>
+    <string name="filter_save">Сохранить</string>
+
+    <string name="hint_overview">Описание</string>
+    <string name="people_biography">Биография</string>
+    <string name="known_for">Известность за</string>
+    <string name="gender">Жанры</string>
+    <string name="we_don_t_have_a_biography">У нас нет биографии про эту личность</string>
+    <string name="recommendations">Рекомендации</string>
+    <string name="profile_watch_list">Список просмотров</string>
+    <string name="no_trailer">Трейлер отсутствует</string>
+    <string name="profile_rating">Рейтинги</string>
+    <string name="action_search">Поиск</string>
+    <string name="no_results_were_found_for_your_search">По вашему запросу ничего не найдено...</string>
+    <string name="find_a_movie_tv_series_person">Найдите фильм, сериал, персону...</string>
+    <string name="connection_error">Ошибка подключения</string>
+    <string name="login_Incorrect_login_or_password">Неверный логин или пароль!</string>
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/overflow_action_filter"
+        android:title="@string/action_filter"
+        android:icon="@drawable/ic_baseline_filter_list_24"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/overflow_action_search"
+        android:title="@string/action_search"
+        app:showAsAction="never" />
+
+    <!--    <item-->
+    <!--        android:id="@+id/overflow_films_fragment"-->
+    <!--        android:title="@string/main_btn_films"-->
+    <!--        app:showAsAction="always"/>-->
+
+    <!--    <item-->
+    <!--        android:id="@+id/overflow_serials_fragment"-->
+    <!--        android:title="@string/main_btn_serials"-->
+    <!--        app:showAsAction="always"/>-->
+
+    <!--    <item-->
+    <!--        android:id="@+id/overflow_people_fragment"-->
+    <!--        android:title="@string/main_btn_people"-->
+    <!--        app:showAsAction="always"/>-->
+
+    <!--    <item-->
+    <!--        android:id="@+id/overflow_profile_fragment"-->
+    <!--        android:title="@string/menu_profile"-->
+    <!--        app:showAsAction="always"/>-->
+
+</menu>

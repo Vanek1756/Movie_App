@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popularFilmSwipeRefresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvNotConnect"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:layout_marginTop="100dp"
+            android:visibility="gone"
+            android:text="@string/connection_error"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnRetryConnect"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/retry_connect"
+            android:visibility="gone"
+            android:textSize="28sp"
+            android:theme="@style/Theme.Design.BottomSheetDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <androidx.core.widget.ContentLoadingProgressBar
+            android:id="@+id/pbPopularFilm"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvPopularFilm"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
